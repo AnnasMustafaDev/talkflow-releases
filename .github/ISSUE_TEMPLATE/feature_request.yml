@@ -1,0 +1,14 @@
+name: Feature request
+description: An idea that would make Talkflow better
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Talkflow to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What would it help you with?
