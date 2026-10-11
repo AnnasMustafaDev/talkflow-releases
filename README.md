@@ -5,10 +5,10 @@
 <p align="center"><b>A real-time AI copilot for meetings and interviews: suggested answers in your own words, ready before you speak.</b></p>
 
 <p align="center">
-  <a href="https://github.com/AnnasMustafaDev/talkflow-releases/releases/latest"><b>Download for Windows</b></a> ·
+  <a href="https://github.com/Zehnix/talkflow-releases/releases/latest"><b>Download for Windows</b></a> ·
   <a href="CHANGELOG.md">What's new</a> ·
   <a href="PRIVACY.md">Privacy</a> ·
-  <a href="https://github.com/AnnasMustafaDev/talkflow-releases/issues">Report a problem</a>
+  <a href="https://github.com/Zehnix/talkflow-releases/issues">Report a problem</a>
 </p>
 
 ![Talkflow listening to a meeting and answering a question](docs/screenshots/live.png)
@@ -58,7 +58,7 @@ This repository holds Talkflow's releases, documentation and issue tracker. The 
 
 **Needs:** Windows 10 version 2004 or later, or Windows 11 (64-bit), and an API key from OpenAI, Anthropic (Claude) or Google (Gemini). An NVIDIA graphics card is optional; it makes the larger speech models fast.
 
-1. Download **`Talkflow-Setup-x.y.z.exe`** from the [latest release](https://github.com/AnnasMustafaDev/talkflow-releases/releases/latest).
+1. Download **`Talkflow-Setup-x.y.z.exe`** from the [latest release](https://github.com/Zehnix/talkflow-releases/releases/latest).
 2. Run it. No admin rights are needed: it installs for your user, and offers "all users" if you prefer.
 3. Optional during setup: tick **GPU speech recognition** if you have an NVIDIA card (downloads about 1 GB).
 4. On first start, pick your AI provider, paste and test your key, and write a short profile. Then type a question, or press **Start listening**.
@@ -91,8 +91,8 @@ Setup asks you to confirm this before first use. Invisible mode is off by defaul
 
 ## Support
 
-Found a bug or have an idea? [Open an issue](https://github.com/AnnasMustafaDev/talkflow-releases/issues/new/choose). For a bug, attach the log from `%LOCALAPPDATA%\Talkflow\talkflow.log`. It holds startup and error messages rather than your conversations; read it before you post it. Security problems: see [SECURITY.md](SECURITY.md).
+Found a bug or have an idea? [Open an issue](https://github.com/Zehnix/talkflow-releases/issues/new/choose). For a bug, attach the log from `%LOCALAPPDATA%\Talkflow\talkflow.log`. It holds startup and error messages rather than your conversations; read it before you post it. Security problems: see [SECURITY.md](SECURITY.md).
 
 ## Licence
 
-Talkflow is released under the [MIT licence](LICENSE) © 2026 Annas Mustafa. It bundles third-party components under their own licences, listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) with the full texts in [licenses/](licenses).
+Talkflow is released under the [MIT licence](LICENSE) © 2026 Zehnix. It bundles third-party components under their own licences, listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) with the full texts in [licenses/](licenses).

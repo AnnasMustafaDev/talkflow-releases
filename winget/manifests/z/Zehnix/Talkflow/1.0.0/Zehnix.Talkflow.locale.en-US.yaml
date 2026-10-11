@@ -1,17 +1,17 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
-PackageIdentifier: AnnasMustafaDev.Talkflow
+PackageIdentifier: Zehnix.Talkflow
 PackageVersion: 1.0.0
 PackageLocale: en-US
-Publisher: Annas Mustafa
-PublisherUrl: https://github.com/AnnasMustafaDev
-PublisherSupportUrl: https://github.com/AnnasMustafaDev/talkflow-releases/issues
-PrivacyUrl: https://github.com/AnnasMustafaDev/talkflow-releases/blob/main/PRIVACY.md
-Author: Annas Mustafa
+Publisher: Zehnix
+PublisherUrl: https://zehnix.co
+PublisherSupportUrl: https://github.com/Zehnix/talkflow-releases/issues
+PrivacyUrl: https://github.com/Zehnix/talkflow-releases/blob/main/PRIVACY.md
+Author: Zehnix
 PackageName: Talkflow
-PackageUrl: https://github.com/AnnasMustafaDev/talkflow-releases
+PackageUrl: https://github.com/Zehnix/talkflow-releases
 License: MIT
-LicenseUrl: https://github.com/AnnasMustafaDev/talkflow-releases/blob/main/LICENSE
-Copyright: Copyright (c) 2026 Annas Mustafa
+LicenseUrl: https://github.com/Zehnix/talkflow-releases/blob/main/LICENSE
+Copyright: Copyright (c) 2026 Zehnix
 ShortDescription: Real-time AI copilot for meetings and interviews, with local speech recognition.
 Description: |-
   Talkflow listens to a meeting through your speakers, or takes a typed question, and drafts a clear answer in your own voice.
@@ -25,6 +25,6 @@ Tags:
   - transcription
   - whisper
   - speech-to-text
-ReleaseNotesUrl: https://github.com/AnnasMustafaDev/talkflow-releases/blob/main/CHANGELOG.md
+ReleaseNotesUrl: https://github.com/Zehnix/talkflow-releases/blob/main/CHANGELOG.md
 ManifestType: defaultLocale
 ManifestVersion: 1.9.0

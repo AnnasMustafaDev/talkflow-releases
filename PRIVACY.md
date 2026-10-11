@@ -49,4 +49,4 @@ ONNX Runtime, which Talkflow uses to detect when someone speaks, can log telemet
 
 ## Contact
 
-Questions about privacy: [open an issue](https://github.com/AnnasMustafaDev/talkflow-releases/issues).
+Questions about privacy: [open an issue](https://github.com/Zehnix/talkflow-releases/issues).
