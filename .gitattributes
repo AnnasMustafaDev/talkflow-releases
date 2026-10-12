@@ -1,2 +1,4 @@
 * text=auto
 *.png binary
+policy/policy.json -text
+policy/policy.json.sig -text

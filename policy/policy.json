@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "issued": "2026-10-12T08:00:00Z",
+  "min_version": "0.0.0",
+  "min_version_enforced": false,
+  "latest": {
+    "version": "1.1.1",
+    "url": "https://github.com/Zehnix/talkflow-releases/releases/latest",
+    "notes": "Ships compiled only, under the Talkflow licence. Includes the floating bar's drag fix."
+  },
+  "pricing_live": false,
+  "features": {
+    "live_answers": "free",
+    "interview_rounds": "free",
+    "screen_solve": "free"
+  },
+  "trial": { "pro_sessions": 0 },
+  "grandfather": { "before": null, "keeps": "free" },
+  "notice": null
+}
