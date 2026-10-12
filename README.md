@@ -95,4 +95,4 @@ Found a bug or have an idea? [Open an issue](https://github.com/Zehnix/talkflow-
 
 ## Licence
 
-Talkflow is released under the [MIT licence](LICENSE) © 2026 Zehnix. It bundles third-party components under their own licences, listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) with the full texts in [licenses/](licenses).
+Talkflow is free to download and use under the [Talkflow licence](LICENSE) © 2026 Zehnix. Copying, modifying, reverse engineering and redistributing it are not allowed. Versions 1.0.0 and 1.1.0 were released under the MIT licence. Talkflow bundles third-party components under their own licences, listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) with the full texts in [licenses/](licenses).

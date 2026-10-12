@@ -5,8 +5,8 @@ Manifests for the [Windows Package Manager](https://learn.microsoft.com/windows/
 Validate and submit them with [wingetcreate](https://github.com/microsoft/winget-create):
 
 ```powershell
-winget validate --manifest winget\manifests\z\Zehnix\Talkflow\1.1.0
-wingetcreate submit winget\manifests\z\Zehnix\Talkflow\1.1.0
+winget validate --manifest winget\manifests\z\Zehnix\Talkflow\1.1.1
+wingetcreate submit winget\manifests\z\Zehnix\Talkflow\1.1.1
 ```
 
 Submit only the newest version; older folders stay for reference.

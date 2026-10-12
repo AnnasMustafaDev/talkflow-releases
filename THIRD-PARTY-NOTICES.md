@@ -1,6 +1,6 @@
 # Third-party notices
 
-Talkflow is MIT-licensed (see `LICENSE`). The installer bundles the components below, each under its own licence. Licence texts ship with the installer: most Python packages carry theirs in `runtime\Lib\site-packages\<package>.dist-info\` (ONNX Runtime in `runtime\Lib\site-packages\onnxruntime\`), and the rest are in the `licenses\` folder next to this file.
+Talkflow itself is under the Talkflow licence (see `LICENSE`). The installer bundles the components below, each under its own licence. Licence texts ship with the installer: most Python packages carry theirs in `runtime\Lib\site-packages\<package>.dist-info\` (ONNX Runtime in `runtime\Lib\site-packages\onnxruntime\`), and the rest are in the `licenses\` folder next to this file.
 
 ## Runtime
 

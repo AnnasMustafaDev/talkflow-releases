@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+PackageIdentifier: Zehnix.Talkflow
+PackageVersion: 1.1.1
+InstallerType: inno
+MinimumOSVersion: 10.0.19041.0
+UpgradeBehavior: install
+ProductCode: '{9ED4C640-A1D0-4B32-86A7-CC48E55560AB}_is1'
+ReleaseDate: 2026-10-12
+Installers:
+  - Architecture: x64
+    Scope: user
+    InstallerUrl: https://github.com/Zehnix/talkflow-releases/releases/download/v1.1.1/Talkflow-Setup-1.1.1.exe
+    InstallerSha256: E0B19D33431AF006579B97DC89B8523CCC708B162DB34E02469A1B0C6ED42E9A
+    InstallerSwitches:
+      Custom: /CURRENTUSER
+  - Architecture: x64
+    Scope: machine
+    InstallerUrl: https://github.com/Zehnix/talkflow-releases/releases/download/v1.1.1/Talkflow-Setup-1.1.1.exe
+    InstallerSha256: E0B19D33431AF006579B97DC89B8523CCC708B162DB34E02469A1B0C6ED42E9A
+    InstallerSwitches:
+      Custom: /ALLUSERS
+    ElevationRequirement: elevatesSelf
+ManifestType: installer
+ManifestVersion: 1.9.0

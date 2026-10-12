@@ -2,6 +2,11 @@
 
 All notable changes to Talkflow. Versions follow [Semantic Versioning](https://semver.org).
 
+## 1.1.1 — 2026-10-12
+
+- **Talkflow ships compiled.** The app's code is installed only in compiled form; it runs exactly as before.
+- **New licence.** From this version Talkflow is under the Talkflow licence: free to download and use, for personal and commercial work; copying, modifying, reverse engineering and redistributing it are not allowed. Copies of 1.0.0 and 1.1.0 keep the MIT licence they were released with.
+
 ## 1.1.0 — 2026-10-12
 
 - **Floating bar: dragging works on scaled displays.** On 125 % and 150 % screens the bar jumped into a corner and blinked when you dragged it. It now follows the cursor smoothly, keeps part of itself on screen so you can always grab it, comes back if it ended up off-screen, and a double-click on its top strip puts it back at the top centre.

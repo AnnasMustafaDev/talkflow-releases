@@ -1,21 +1,52 @@
-MIT License
+Talkflow Licence
 
-Copyright (c) 2026 Zehnix
+Copyright (c) 2026 Zehnix. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Talkflow ("the Software") is owned by Zehnix and is licensed, not sold.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. What you may do
+   You may download, install and use the Software free of charge, for personal
+   and commercial purposes, on any number of your own computers, and keep a
+   copy of the installer as a backup.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. What you may not do
+   Except as this licence allows or applicable law expressly permits, you may
+   not:
+   a. copy, modify, translate or create works based on the Software;
+   b. reverse engineer, decompile or disassemble the Software, or try to
+      obtain its source code;
+   c. distribute, publish, sell, rent, lend, sublicense or host the Software
+      for others, including through package managers or download sites other
+      than those run by Zehnix;
+   d. remove or change any copyright, licence or attribution notices.
+
+3. Third-party components
+   The Software includes third-party components under their own licences,
+   listed in THIRD-PARTY-NOTICES.md and the licenses folder. Those licences
+   apply to those components, and nothing here limits your rights under them.
+
+4. Your responsibilities
+   You are responsible for using the Software lawfully, including telling
+   people when you transcribe them and following the rules of any meeting,
+   interview, exam or test you use it in.
+
+5. No warranty
+   The Software is provided "as is", without warranty of any kind, express or
+   implied, including the warranties of merchantability, fitness for a
+   particular purpose and non-infringement.
+
+6. Limitation of liability
+   To the extent the law allows, Zehnix is not liable for any claim, damages
+   or other liability arising from the Software or its use, whether in
+   contract, tort or otherwise.
+
+7. Changes and earlier versions
+   Zehnix may offer later versions under different terms. Versions 1.0.0 and
+   1.1.0 were released under the MIT licence; copies of those versions keep
+   that licence. This licence applies from version 1.1.1.
+
+8. Ending this licence
+   This licence ends automatically if you break its terms. You must then stop
+   using the Software and delete your copies.
+
+Contact: hello@zehnix.co
