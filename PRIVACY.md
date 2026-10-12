@@ -28,6 +28,14 @@ Talkflow contacts [Hugging Face](https://huggingface.co) only to **download** a 
 
 If you tick **GPU speech recognition** in the installer, it downloads NVIDIA's CUDA libraries (cuBLAS, cuDNN and NVRTC, under NVIDIA's licence) from [PyPI](https://pypi.org). This happens once, during setup.
 
+## Talkflow for Chrome (optional extension, not in the Chrome Web Store yet)
+
+The extension doesn't talk to any server, including Talkflow's. It works only with the Talkflow app on the same PC:
+
+- **Audio of one tab, when you ask.** Clicking the Talkflow icon (or pressing Alt+Shift+T) on a tab lets the extension hear that tab's audio, and Chrome marks the tab while it does. The audio goes from Chrome straight to the Talkflow app on your PC (Chrome's native messaging, then a local connection protected by a random key stored in your Windows profile). It is never sent anywhere else. In the app it is handled exactly like speaker audio: transcribed locally, never stored. Listening stops when you press Stop, close the tab, or close Chrome.
+- **What the side panel shows** (the lines heard, questions and answers) comes from the app and isn't stored by the extension. Typed questions go to the app, which handles them as in section 1.
+- **No page access.** The extension can't read or change web pages, and has no access to your browsing history, cookies or other tabs. Its permissions: `tabCapture` (the tab's audio), `activeTab` (the name and address of the tab you clicked, shown in the panel), `offscreen` (to process the audio), `sidePanel` and `nativeMessaging` (to reach the app).
+
 ## Bundled components
 
 ONNX Runtime, which Talkflow uses to detect when someone speaks, can log telemetry events through Windows. Talkflow turns off ONNX Runtime's optional telemetry when it loads it; Windows may still record a minimal start-up event, subject to your Windows diagnostic-data setting. Nothing else in Talkflow phones home.
@@ -36,7 +44,7 @@ ONNX Runtime, which Talkflow uses to detect when someone speaks, can log telemet
 
 | What | Where |
 |---|---|
-| Settings, and your API keys encrypted with Windows DPAPI | `%APPDATA%\Talkflow` |
+| Settings, your API keys encrypted with Windows DPAPI, and the key that lets the Chrome extension's bridge connect (`bridge.key`) | `%APPDATA%\Talkflow` |
 | Conversations and summaries | `Documents\Talkflow` (change it in Settings). If your Documents folder syncs to OneDrive, these sync too. |
 | Log file, and the window's browser cache (WebView2) | `%LOCALAPPDATA%\Talkflow` |
 | Speech models | `%USERPROFILE%\.cache\huggingface\hub` (shared with other apps that use Hugging Face) |

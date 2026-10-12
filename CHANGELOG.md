@@ -2,6 +2,12 @@
 
 All notable changes to Talkflow. Versions follow [Semantic Versioning](https://semver.org).
 
+## 1.1.0 — 2026-10-12
+
+- **Floating bar: dragging works on scaled displays.** On 125 % and 150 % screens the bar jumped into a corner and blinked when you dragged it. It now follows the cursor smoothly, keeps part of itself on screen so you can always grab it, comes back if it ended up off-screen, and a double-click on its top strip puts it back at the top centre.
+- **Ready for Talkflow for Chrome.** The installer sets up the local connection the upcoming Chrome extension uses to listen to one meeting tab and show answers in Chrome's side panel (for Chrome and Edge, removed on uninstall). The extension itself comes to the Chrome Web Store later. While it listens to a tab, the main window says which one.
+- Published by Zehnix: the installer's publisher, support and update links point to Zehnix.
+
 ## 1.0.0 — 2026-10-09
 
 The first public release.

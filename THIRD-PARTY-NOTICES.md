@@ -48,6 +48,8 @@ Talkflow is MIT-licensed (see `LICENSE`). The installer bundles the components b
 | Bricolage Grotesque, Hanken Grotesk, JetBrains Mono (fonts) | SIL Open Font License 1.1 | `app\src\ui\web\fonts\OFL-*.txt` |
 | Lucide icons (portions from Feather) | ISC (Feather portions: MIT) | `licenses\Lucide.txt` |
 
+The Chrome extension bundles the same fonts and icons, and carries their licence texts in its own `licenses/` folder.
+
 ## Downloaded later, not bundled
 
 | Component | When | Licence |
