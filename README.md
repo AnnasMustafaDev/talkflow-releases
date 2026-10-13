@@ -13,7 +13,7 @@
 
 ![Talkflow listening to a meeting and answering a question](docs/screenshots/live.png)
 
-Talkflow listens to a conversation through your speakers, or takes a typed question. It notices when a question is asked and writes a clear answer in your own voice, in the main window and on a small always-on-top bar. Speech recognition runs on your PC and audio never leaves it. To write an answer, Talkflow sends the question, the last few lines of the meeting as text, your recent Q&A and your profile to the AI provider you choose (OpenAI, Claude or Gemini), with your own API key.
+Talkflow listens to a conversation through your speakers, or takes a typed question. It notices when a question is asked and writes a clear answer in your own voice, in the main window and on a small always-on-top bar. Speech recognition runs on your PC and audio never leaves it. To write an answer, Talkflow sends the question, the last few lines of the meeting as text, your recent Q&A, your profile and any interview briefs you switch on to the AI provider you choose (OpenAI, Claude or Gemini), with your own API key.
 
 This repository holds Talkflow's releases, documentation and issue tracker. The source code is not public.
 
@@ -37,6 +37,9 @@ This repository holds Talkflow's releases, documentation and issue tracker. The 
 - **Type a question** any time, with or without listening.
 - **Live audio meters** in the side rail and on the bar, so you can see that audio is arriving.
 - **Meeting summaries** with decisions, action items and open questions.
+- **Interview rounds.** Keep each round with a company as a short brief (asked, said, promised, still open); later answers remember them.
+- **Solve from screen.** Ctrl+Alt+Shift+S sends a screenshot of a coding task and walks you through it, hints first, with follow-ups.
+- **Skips speech that isn't meant for you**, such as TV or side talk, with an **Answer anyway** option.
 
 **Speech recognition on your PC**
 - **Whisper models**, from tiny to large-v3, running locally. Only text ever goes to the AI provider.
@@ -45,7 +48,7 @@ This repository holds Talkflow's releases, documentation and issue tracker. The 
 - **Optional GPU add-on** in the installer: NVIDIA CUDA libraries, about 1 GB.
 
 **Privacy and control**
-- **No account, no analytics.** API keys are encrypted with Windows DPAPI. Conversations stay in `Documents\Talkflow`, with automatic deletion after 7, 30 or 90 days if you want it.
+- **No account.** Usage statistics and error reports are optional and off unless you say yes. API keys are encrypted with Windows DPAPI. Conversations stay in `Documents\Talkflow`, with automatic deletion after 7, 30 or 90 days if you want it.
 - **Opt-in invisible mode.** Off by default. When you turn it on, Talkflow's windows are left out of screen shares and recordings by apps that respect Windows' capture exclusion, and it leaves the taskbar. **Ctrl+Alt+Shift+D** always brings it back.
 - **Optional launch password.**
 
@@ -77,7 +80,7 @@ Get-FileHash .\Talkflow-Setup-*.exe -Algorithm SHA256
 
 ## Privacy
 
-No account, no analytics, and no telemetry. Talkflow uses the network only when it writes an answer or summary or tests your key (your chosen AI provider, your key), when it downloads a speech model (Hugging Face), and for the optional GPU add-on at setup (PyPI). The full details are in the [privacy policy](PRIVACY.md).
+No account. Usage statistics and error reports are optional, off unless you say yes, and never contain what's said. Talkflow uses the network only when it writes an answer or summary, solves from a screenshot or tests your key (your chosen AI provider, your key), when it downloads a speech model (Hugging Face), for the optional GPU add-on at setup (PyPI), and for a small signed update-check file (GitHub, every six hours, sends nothing about you). The full details are in the [privacy policy](PRIVACY.md).
 
 ## Responsible use
 

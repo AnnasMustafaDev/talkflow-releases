@@ -2,6 +2,19 @@
 
 All notable changes to Talkflow. Versions follow [Semantic Versioning](https://semver.org).
 
+## 1.2.0 — 2026-10-13
+
+- **Interview rounds.** In your profile you can add an interview process (company, role and, if you like, the job description). Each round is kept as a short, editable brief: what was asked, what you said, what you promised and what is still open. A round can come from a listening session (it joins the process in use when you press Stop), from a conversation in the Inbox, or from your own notes. Later answers draw on the briefs of the rounds you switch on and on the job description, never on full transcripts. The Live view shows which process is in use.
+- **Solve from screen.** Press **Ctrl+Alt+Shift+S**, or **Screen** in Live, to send one screenshot of a coding task to your AI provider. It captures the screen under your mouse, or a window you pick in Settings even when other windows cover it. The answer gives the approach, complexity and edge cases, hints first and the code when you ask for it. Follow-ups reuse the same screenshot (show the code, explain, optimise, another language), and **Review my code** captures your own code. Talkflow's windows stay out of the shot, and screenshots are not saved.
+- **Answers that stick to your profile.** What your profile says comes before generic advice and is never contradicted. Methods and figures stay with the employer they belong to, and answers no longer make up numbers. A question that was cut off gets a short holding reply, and technical terms the speech recognition misheard are understood from context.
+- **Speech not meant for you is skipped.** Talkflow no longer answers TV, ads, speeches or side talk. It shows a quiet **Answer anyway** line instead, and skipped lines are not saved. Typed questions and screenshots are always answered.
+- **Better question detection.** A line cut off mid-sentence waits a few seconds and is joined with the next one. A question that follows a reaction in the same line, such as "Great. Now explain RAG.", is now detected.
+- **Try again** on answers that failed.
+- **Update notices.** Talkflow checks a small file published by Zehnix at start and every six hours, and uses it only if Zehnix's signature on it is valid. It tells you when a new version is out and can show a short notice; an update prompt never interrupts listening. Nothing about you is sent.
+- **Optional usage statistics and error reports.** Talkflow asks once, in setup or after this update, and both are off unless you tick them. They never include what anyone said, your questions and answers, your profile, screenshots or keys. *Settings → Privacy* has both switches, an example of what's sent, and **Delete data sent so far**. The [privacy policy](PRIVACY.md) lists exactly what is sent and how long it is kept.
+- **Keyboard shortcuts and tips in Settings.** Every shortcut in one list, short tips, and where to find the log. **Ctrl+K** jumps to the question box, and **Esc** closes dialogs.
+- **Copy conversation text.** You can now select and copy the conversation in Live and in the Inbox.
+
 ## 1.1.1 — 2026-10-12
 
 - **Talkflow ships compiled.** The app's code is installed only in compiled form; it runs exactly as before.
