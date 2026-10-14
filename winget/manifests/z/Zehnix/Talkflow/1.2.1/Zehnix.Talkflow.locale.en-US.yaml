@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+PackageIdentifier: Zehnix.Talkflow
+PackageVersion: 1.2.1
+PackageLocale: en-US
+Publisher: Zehnix
+PublisherUrl: https://zehnix.co
+PublisherSupportUrl: https://github.com/Zehnix/talkflow-releases/issues
+PrivacyUrl: https://github.com/Zehnix/talkflow-releases/blob/main/PRIVACY.md
+Author: Zehnix
+PackageName: Talkflow
+PackageUrl: https://github.com/Zehnix/talkflow-releases
+License: Proprietary (free to use)
+LicenseUrl: https://github.com/Zehnix/talkflow-releases/blob/main/LICENSE
+Copyright: Copyright (c) 2026 Zehnix
+ShortDescription: Real-time AI copilot for meetings and interviews, with local speech recognition.
+Description: |-
+  Talkflow listens to a meeting through your speakers, or takes a typed question, and drafts a clear answer in your own voice.
+  Speech recognition runs locally with Whisper models; only text is sent to the AI provider you choose (OpenAI, Claude or Gemini) with your own API key.
+Moniker: talkflow
+Tags:
+  - ai
+  - assistant
+  - meetings
+  - interview
+  - transcription
+  - whisper
+  - speech-to-text
+ReleaseNotesUrl: https://github.com/Zehnix/talkflow-releases/blob/main/CHANGELOG.md
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0

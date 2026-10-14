@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "issued": "2026-10-13T13:35:00Z",
+  "issued": "2026-10-14T10:07:43Z",
   "min_version": "0.0.0",
   "min_version_enforced": false,
   "latest": {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "url": "https://github.com/Zehnix/talkflow-releases/releases/latest",
-    "notes": "Interview rounds, solve from screen, answers that stick to your profile, and speech not meant for you is skipped."
+    "notes": "The subtitle bar now turns dark over dark screens and light over light ones (Settings, Bar colours)."
   },
   "pricing_live": false,
   "features": {

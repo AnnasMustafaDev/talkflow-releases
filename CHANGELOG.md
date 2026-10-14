@@ -2,6 +2,11 @@
 
 All notable changes to Talkflow. Versions follow [Semantic Versioning](https://semver.org).
 
+## 1.2.1 — 2026-10-14
+
+- **The subtitle bar follows your screen.** By default it turns dark over a dark window, such as a code editor, and light over a light page, so it never stands out as a bright window (or a reflection in glasses). It switches smoothly, only when the background really changes. *Settings → Bar colours* has Auto, Light and Dark. Talkflow checks a tiny, shrunken view of the screen behind the bar on your PC; nothing is saved or sent.
+- **Easier-to-read cyan text** in light mode.
+
 ## 1.2.0 — 2026-10-13
 
 - **Interview rounds.** In your profile you can add an interview process (company, role and, if you like, the job description). Each round is kept as a short, editable brief: what was asked, what you said, what you promised and what is still open. A round can come from a listening session (it joins the process in use when you press Stop), from a conversation in the Inbox, or from your own notes. Later answers draw on the briefs of the rounds you switch on and on the job description, never on full transcripts. The Live view shows which process is in use.

@@ -70,6 +70,7 @@ ONNX Runtime, which Talkflow uses to detect when someone speaks, can log telemet
 | Download logs and temporary download data (from Hugging Face's downloader) | `%USERPROFILE%\.cache\huggingface\xet` |
 | Browser cache from earlier Talkflow builds | `%APPDATA%\pywebview` (safe to delete) |
 
+- **Subtitle bar colours.** With *Bar colours* on Auto (the default), the bar looks at a tiny, shrunken view (48 × 27 pixels) of the screen behind it every 1.5 seconds to pick a light or dark look. It is used on the spot, never saved and never sent. Choose Light or Dark to turn this off.
 - To stop saving conversations, turn off **Save conversations** in Settings.
 - To delete old ones automatically, use **Delete after**.
 - Uninstalling Talkflow keeps your data. Delete the folders above to remove it.
